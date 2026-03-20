@@ -50,6 +50,73 @@ Each step builds on the output of the previous one.
 ## Installation
 
 Install dependencies:
+```bash
+pip install crewai crewai_tools langchain_community
+```
+Set your OpenAI API key before running the notebook.
+
+How to Run
+
+Open the notebook:
+L3_customer_support.ipynb
+
+Set your API key
+
+Run all cells
+
+Provide a sample customer query
+
+Observe how agents collaborate to generate a final response
+
+Example Use Cases
+
+Customer complaint handling
+
+Technical support automation
+
+FAQ response generation
+
+E-commerce support systems
+
+Learning Objectives
+
+This project helps you understand:
+
+how multi-agent systems can improve LLM outputs
+
+how to structure AI workflows for real-world applications
+
+how to design role-based AI agents
+
+how CrewAI orchestrates tasks and agents
+
+Future Improvements
+
+Add memory and conversation history
+
+Integrate external knowledge bases (RAG)
+
+Add sentiment detection
+
+Deploy as an API or web app
+
+Support real-time chat interfaces
+
+Notes
+
+Outputs may vary due to LLM randomness
+
+Designed as an educational and prototype system
+
+Can be extended to production-level systems with additional tools
+
+License
+
+For educational and demonstration purposes.
+
+
+---
+
 
 ```bash
 pip install crewai crewai_tools langchain_community
